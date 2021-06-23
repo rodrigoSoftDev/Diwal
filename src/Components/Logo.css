@@ -1,0 +1,22 @@
+.logo-container {
+    height: 50px;
+    display: flex;
+    padding: 5px;
+    background: cadetblue;
+    color: white;
+    font-family: 'Brush Script MT';
+}
+
+.login-logo{
+    padding: 5px;
+    border-radius: 50%;
+    transform: rotate(-30deg);
+}
+
+.login-logo-text{
+    align-self: center;
+    font-size: 1.7em;
+    margin-left: 5px;
+    margin-right: 5px;
+}
+  

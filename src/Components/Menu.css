@@ -1,0 +1,26 @@
+.menu-img {
+    width: 30px !important;
+    height: 30px !important;
+    margin-left: 1em;
+}
+
+.menu-bar {
+    position: fixed;
+    z-index: 1000;
+    width: 40%;
+    height: 95vh;
+    background: rgba(0, 0, 0, 0.3);
+    opacity: 1;
+    transition: opacity 0.3s ease 0s;
+    border-radius: 0px 15px 15px 0px;
+}
+
+.pro-sidebar > .pro-sidebar-inner {
+    background: cadetblue !important;
+    color: white !important;
+}
+
+.menu-item {
+    width: 25px;
+    margin-right: 10px;
+}
