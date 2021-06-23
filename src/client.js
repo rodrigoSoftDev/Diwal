@@ -1,7 +1,7 @@
 import axios from 'axios';
 
-const host = "http://localhost:3030"
-
+//const host = "http://localhost:3030"
+const host = "https://diwal.herokuapp.com"
 
 export const login = (username, password) => 
     axios.post(`${host}/login`, {
