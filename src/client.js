@@ -1,18 +1,16 @@
 import axios from 'axios';
-
-const host = "http://localhost:3030"
-//const host = "https://diwal.herokuapp.com"
+import { getApiEndpoint } from "./Utils/helpers";
 
 export const login = (username, password) => 
-    axios.post(`${host}/login`, {
+    axios.post(`${getApiEndpoint}/login`, {
         username: username,
         password: password,
     });
 
 export const register = (username, password) => 
-    axios.post(`${host}/register`, {
+    axios.post(`${getApiEndpoint}/register`, {
         username: username,
         password: password,
     });
 
-export const getUser = (id) => axios.get(`${host}/user/${id}`)
+export const getUser = (id) => axios.get(`${getApiEndpoint}/user/${id}`)

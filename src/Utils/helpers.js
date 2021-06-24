@@ -22,3 +22,8 @@ export const moneyDivisor = {
         { fee: { title: "Cuotas", width: 6 } },
     ],
 };
+
+export const getApiEndpoint = 
+    document.URL.includes("herokuapp")
+        ? "https://diwal.herokuapp.com"
+        : "http://localhost:3030"
